@@ -1,9 +1,9 @@
 # 255-project-walmart
 Members: 
-B.Saketh Reddy(01483881)
-Vinay Guda()
-Shalaka Bodke(015357069)
-Nikhil Raj()
+* B.Saketh Reddy (014843881)
+* Vinay Guda (015255123)
+* Shalaka Bodke (015357069)
+* Nikhil Raj (014668121)
 
 Dataset: 
 Walmart Recruiting Store Sales
