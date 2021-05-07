@@ -20,3 +20,7 @@ Dataset obtained from Kaggle contains Walmart sales data which is categorized in
 
 Data PreProcessing:
 The dataframe has been checked for duplicate values and found that none of the data has been duplicated. Missing values for each column were calculated, based on the results we observed that there were no missing values present in any of the columns. During the processing of the data, we have observed that some of the sales values were negative and zero in nature, these values were filtered out using spark-SQL. All the pre-processed data was exported to excel using Openpyxl and the same file has been loaded into Tableau. Once the data has been loaded into Tableau, the following Dimensions and Measures was formed.
+
+
+
+
