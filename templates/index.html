@@ -16,7 +16,7 @@
 	<h1>Walmart Sales Prediction</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form method="post">
+    <form method="post" action="{{url_for('predict')}}">
 
         <label for="store">Store:</label>
     	  <input type="text" name="store" placeholder="Store" required="required"/>
