@@ -20,8 +20,6 @@
  <div class="login" style="top:30%">
 	<h1 style="margin-bottom:35px">Walmart Sales Prediction</h1>
   
-
-     <!-- Main Input For Receiving Query to our ML -->
     <form method="post" action="{{url_for('predict')}}">
       
       <div class="row">
@@ -53,13 +51,7 @@
       <label class="form-check-label" for="no" style="margin-left:15px"> No </label>
 
       </div>
-    <!-- <div class="col-sm-8" style="margin-top:25px">
-      <label for="isholiday">IsHoliday:</label>
-      <input class="form-check-input" type="radio" name="isHolidayRadio" id="yes" style="width:auto; margin-left:15px">
-      <label class="form-check-label" for="yes" style="margin-left:15px"> Yes </label>
-      <input class="form-check-input" type="radio" name="isHolidayRadio" id="no" style="width:auto; margin-left:15px">
-      <label class="form-check-label" for="no" style="margin-left:15px"> No </label>
-    </div> -->
+
     </div>
       <button type="submit" class="btn btn-primary btn-block btn-large" style="width: 25%; margin: auto; margin-top: 5%;">Predict</button>
 

@@ -27,11 +27,6 @@ def predict():
     isHoliday = request.form['isHolidayRadio']    
     size=request.form.get('size')
     temp=request.form.get('temp')
-    # dateStart=date
-    # print("Date type :", type(dateStart))
-    # dateEnd = (dt.strptime(dateStart, '%Y-%m-%d') + dt.timedelta(days=7)).strftime('%Y-%m-%d')
-    # print("Date type :", type(dateEnd))
-    # dateEnd = dateStart+ dt.timedelta(days=7)
     d=dt.datetime.strptime(date, '%Y-%m-%d')
     year = (d.year)
     month = d.month
@@ -48,14 +43,6 @@ def predict():
     output=round(y_pred[0],2)
     print("predicted = ", output)
     return render_template('index.html', output=output, store=store, dept=dept, month_name=month_name, year=year)
-    # pass
-
-# result = loaded_model.score(X_test, Y_test)
-# print(result)
-# return render_template('index.html', output=result)
-
-# @app.route('/submit', methods=['POST'])
-# def getValues():
 
 
 if __name__ == "__main__":

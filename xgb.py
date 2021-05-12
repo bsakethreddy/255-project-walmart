@@ -50,5 +50,3 @@ print('Root Mean Squared Error:', np.sqrt(mean_squared_error(y_test, y_pred)))
 print("R-squared score:", r2_score(y_test, y_pred))
 print(xg_reg.score(X_test, y_test)*100)
 
-filename = 'finalized_model.sav'
-pickle.dump(xg_reg, open(filename, 'wb'))
